@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="240" viewBox="0 0 720 240"
+     style="max-width:100%;height:auto;display:block">
+
+  <defs>
+    <linearGradient id="softBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#a8c4e6"/>
+      <stop offset="48%"  stop-color="#bdb4e2"/>
+      <stop offset="100%" stop-color="#e4bccd"/>
+    </linearGradient>
+
+    <linearGradient id="softSheen" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.20"/>
+      <stop offset="55%"  stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="0" y="0" width="720" height="240" rx="28" fill="url(#softBg)"/>
+  <rect x="0" y="0" width="720" height="240" rx="28" fill="url(#softSheen)"/>
+
+  <g font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Helvetica Neue',Arial,sans-serif"
+     text-anchor="end" fill="#ffffff">
+    <text x="552" y="112" font-size="34" font-weight="700" fill-opacity="0.93" letter-spacing="0.5">
+      《了不起的设计》临摹工程文件
+    </text>
+    <text x="552" y="152" font-size="19" font-weight="700" fill-opacity="0.80" letter-spacing="1">
+      见 release 处下载
+    </text>
+  </g>
+
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.88" stroke-width="5"
+     stroke-linecap="round" stroke-linejoin="round">
+    <path d="M617 88 L617 142"/>
+    <path d="M617 142 L587 112"/>
+    <path d="M617 142 L647 112"/>
+  </g>
+</svg>
