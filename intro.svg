@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" width="960" height="440"
+     role="img" aria-label="《了不起的设计》临摹 · 见release">
+  <defs>
+    <!-- 柔和渐变背景 -->
+    <linearGradient id="softGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%"   stop-color="#9fb3dd"/>
+      <stop offset="45%"  stop-color="#b9abe0"/>
+      <stop offset="100%" stop-color="#e8bccb"/>
+    </linearGradient>
+
+    <!-- 左上角柔光，增加层次 -->
+    <radialGradient id="glow" cx="18%" cy="0%" r="95%">
+      <stop offset="0%"   stop-color="#ffffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- 轻微投影，保证白字可读 -->
+    <filter id="softShadow" x="-25%" y="-25%" width="150%" height="150%">
+      <feDropShadow dx="0" dy="3" stdDeviation="8"
+                    flood-color="#5b4b78" flood-opacity="0.20"/>
+    </filter>
+  </defs>
+
+  <!-- 背景 -->
+  <rect width="960" height="440" rx="28" fill="url(#softGradient)"/>
+  <rect width="960" height="440" rx="28" fill="url(#glow)"/>
+
+  <!-- 文字：两行，居中，白色半透明 -->
+  <g filter="url(#softShadow)"
+     fill="#ffffff" fill-opacity="0.94"
+     font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',system-ui,-apple-system,'Segoe UI',sans-serif"
+     font-weight="700" text-anchor="middle">
+    <text x="420" y="208" font-size="52" letter-spacing="2">《了不起的设计》临摹</text>
+    <text x="420" y="266" font-size="30" fill-opacity="0.82" letter-spacing="1">见release</text>
+  </g>
+
+  <!-- 右上方向箭头 -->
+  <g stroke="#ffffff" stroke-opacity="0.92" stroke-width="6"
+     stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <path d="M720 258 L824 154"/>
+    <path d="M805 155 L830 148 L823 173"/>
+  </g>
+</svg>
